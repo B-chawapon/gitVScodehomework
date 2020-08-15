@@ -1,10 +1,11 @@
 #include<stdio.h>
+#include<math.h>
 int main()
 {
-	   int pos=1;
-       int i,j;
-	   char ch[100];
-	   scanf("%s",ch);
+   	int i,j;
+	char ch[100];
+	int pos=1;
+  scanf("%s",ch);
 	for(i=0;i<100;i++)
 	{
         if(ch[i]=='A')
@@ -41,6 +42,6 @@ int main()
 	        }
 	       }         
 	   }      
-	printf("%d",pos); 
-    return 0;	    
+		printf("%d",pos); 
+  return 0;	    
 }
