@@ -6,7 +6,6 @@ int main()
     int pos;
     int power=0;
     float sum=0;
-    printf("Enter a Integer : ");
     scanf("%d",&num);
     if(num>=0 && num<10000000)
     {
