@@ -83,9 +83,37 @@ int main()
             }
         }
     }
-    printf("%d\n",adrian);
-    printf("%d\n",bruno);
-    printf("%d\n",goran);
+   /* printf("%d\n",adrian);
+     printf("%d\n",bruno);
+      printf("%d\n",goran);
+       */
+    if (adrian >= bruno && adrian >= goran) 
+    {
+        printf("%d\n",adrian);
+        printf("Adrian");
+	    if(adrian == bruno) 
+        {
+            printf("\nBruno");
+        }    
+        if(adrian ==goran) 
+        {
+            printf("\nGoran");
+        }
+	} 
+    else if(bruno >= adrian && bruno >= goran) 
+    {
+        printf("%d\n",bruno);
+        printf("Bruno");
+	    if(bruno == goran) 
+        {
+            printf("\nGoran");
+        }
+	} 
+    else if(goran > adrian && goran > bruno) 
+    {
+        printf("%d\n",goran);
+	    printf("Goran");
+    }
     return 0;
 
 }
